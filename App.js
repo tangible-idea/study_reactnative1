@@ -26,7 +26,8 @@ export default class extends React.Component {
     this.setState({
       isLoading: false,
       condition: data.weather[0].main,
-      temp: data.main.temp
+      temp: data.main.temp,
+      city: data.name
     });
   };
 
@@ -54,8 +55,8 @@ export default class extends React.Component {
     this.getLocation();
   }
   render() {
-    const { isLoading, temp, condition } = this.state;
-    return isLoading ? <Loading/> : <Weather temp={Math.round(temp)} condition={condition}/>;
+    const { isLoading, temp, condition, city } = this.state;
+    return isLoading ? <Loading/> : <Weather temp={Math.round(temp)} condition={condition} city={city}/>;
     //return <Loading/>;
   }
 };
