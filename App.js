@@ -5,7 +5,7 @@ import * as Location from 'expo-location';
 import axios from "axios";
 import Weather from './Weather';
 //import AdBannerBottom from './AdBannerBottom';
-import FacebookSignIn from './FacebookSignIn';
+//import FacebookSignIn from './FacebookSignIn';
 
 //http://api.openweathermap.org/data/2.5/weather?lat=37.4108644&lon=127.1321343&appid=dbea8043be16362ecbbb027a5797e11b
 const API_KEY= "dbea8043be16362ecbbb027a5797e11b";

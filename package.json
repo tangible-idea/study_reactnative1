@@ -10,7 +10,7 @@
   "dependencies": {
     "@react-native-firebase/app": "^6.4.0",
     "axios": "^0.19.2",
-    "expo": "~37.0.3",
+    "expo": "^37.0.6",
     "expo-cli": "^3.17.18",
     "expo-linear-gradient": "~8.1.0",
     "expo-location": "^8.1.0",
