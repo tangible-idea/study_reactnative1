@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fokin-weather",
-    "slug": "fokin-weather",
+    "name": "tangible-weather",
+    "slug": "tangible-weather",
     "platforms": [
       "ios",
       "android",
@@ -21,8 +21,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": { 
+    "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/softinus/study_reactnative1"
   }
 }
